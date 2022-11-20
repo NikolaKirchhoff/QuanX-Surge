@@ -1,0 +1,7 @@
+#!name=彩云天气
+#!desc=配合Boxjs完成彩云天气实时预报
+[MITM]
+hostname= %APPEND% *caiyunapp.com
+[Script]
+彩云天气 = type=http-request, pattern=^https?:\/\/caiyunapp\.com\/?\/fcgi-bin\/v1\/(coordtrans|subscribe), script-path=https://raw.githubusercontent.com/NikolaKirchhoff/QuanX-Surge/master/Colorful/Caiyun.js, require-body=false
+彩云天气定时推送 = type=cron,cronexp=0 7-22/3 * * *,wake-system=1,script-path=https://raw.githubusercontent.com/NikolaKirchhoff/QuanX-Surge/master/Colorful/Caiyun.js
