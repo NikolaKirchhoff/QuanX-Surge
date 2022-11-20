@@ -1,7 +1,7 @@
 # QuanX-Surge：一些个人自用的Quantumult X及Surge相关配置及脚本
 ## 彩云天气
 说明:由于iOS16禁用天气app的MitM，在原作者@Peng-YM的基础上修改了获取定位的方式，改由彩云天气app获取@IEEEOfficial  
-GitHub地址：https://github.com/NikolaKirchhoff/QuanX-Surge/Colorful  
+GitHub地址：[Colorful](https://github.com/NikolaKirchhoff/QuanX-Surge/tree/master/Colorful)  
 功能：  
 √ 自动定位  
 √ 异常天气预警  
