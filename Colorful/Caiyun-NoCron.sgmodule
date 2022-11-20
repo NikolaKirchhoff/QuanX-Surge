@@ -1,5 +1,5 @@
 #!name=彩云天气
-#!desc=配合Boxjs完成彩云天气实时预报
+#!desc=配合Boxjs完成彩云天气实时预报 w/o Cron
 [MITM]
 hostname= %APPEND% *caiyunapp.com
 [Script]
