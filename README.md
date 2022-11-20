@@ -25,7 +25,7 @@ or https://raw.githubusercontent.com/NikolaKirchhoff/QuanX-Surge/main/Colorful/C
 3️⃣ 配置cron任务如：10 8-22/2 * * *  
 4️⃣ 打开box.js设置彩云令牌(不是链接！！！)即可。  
 ## 致谢
-[@Peng-YM](https://github.com/Peng-YM/Peng-YM)
+[@Peng-YM](https://github.com/Peng-YM)
 
 ## 免责声明  
 1. 此项目中的脚本仅用于学习研究，不保证其合法性、准确性、有效性，请根据情况自行判断，本人对此不承担任何保证责任。
