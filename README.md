@@ -24,6 +24,8 @@ or https://raw.githubusercontent.com/NikolaKirchhoff/QuanX-Surge/main/Colorful/C
 此时，打开彩云天气应用，会提示获取位置成功，如果没有提示，请确认1️⃣是否配置正确  
 3️⃣ 配置cron任务如：10 8-22/2 * * *  
 4️⃣ 打开box.js设置彩云令牌(不是链接！！！)即可。  
+box.js使用Peng-YM的订阅：https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/box.js.json
+
 ## 致谢
 [@Peng-YM](https://github.com/Peng-YM)
 
