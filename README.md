@@ -28,7 +28,7 @@ box.js使用Peng-YM的订阅：https://raw.githubusercontent.com/Peng-YM/QuanX/m
 
 ## 开屏去广告（Surge）
 GitHub地址：[Anti-Ads](https://github.com/NikolaKirchhoff/QuanX-Surge/tree/master/Anti-Ads)  
-配置整体来源于墨鱼QX去开屏广告计划 V2.0(2023-01-31) 与去广告无关的内容已删除，避免与其他模块冲突；去广告方面主要保留个人常用的条目，其他条目随缘  
+配置整体来源于墨鱼QX去开屏广告计划 V2.0(2023-04-04) 与去广告无关的内容已删除，避免与其他模块冲突；去广告方面主要保留个人常用的条目，其他条目随缘  
 使用方式：  
 (1).Quantumult X  
 请直接添加墨鱼的重写：https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/StartUp.conf  
