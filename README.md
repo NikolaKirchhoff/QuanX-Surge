@@ -33,7 +33,7 @@ GitHub地址：[Anti-Ads](https://github.com/NikolaKirchhoff/QuanX-Surge/tree/ma
 (1).Quantumult X  
 请直接添加墨鱼的重写：https://github.com/ddgksf2013/Rewrite/raw/master/AdBlock/StartUp.conf  
 (2).Surge  
-添加模块：https://raw.githubusercontent.com/NikolaKirchhoff/QuanX-Surge/main/Anti-Ads/Anti-Ads.sgmodule  
+添加模块：https://raw.githubusercontent.com/NikolaKirchhoff/QuanX-Surge/main/Anti-Ads/Startup.sgmodule  
 
 ## 致谢
 [@Peng-YM](https://github.com/Peng-YM) [@ddgksf2013](https://github.com/ddgksf2013)
