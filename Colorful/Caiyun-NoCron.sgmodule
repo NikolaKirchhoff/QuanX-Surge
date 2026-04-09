@@ -1,6 +1,6 @@
 #!name=彩云天气
 #!desc=配合Boxjs完成彩云天气实时预报 w/o Cron
 [MITM]
-hostname= %APPEND% api.caiyunapp.com, wrapper.cyapi.cn
+hostname= %APPEND% *caiyunapp.com, wrapper.cyapi.cn
 [Script]
 彩云天气 = type=http-request, pattern=^https?:\/\/(wrapper\.cyapi\.cn|api\.caiyunapp\.com)\/[^\/]+\/([0-9.]+),([0-9.]+)\/weather, script-path=https://raw.githubusercontent.com/NikolaKirchhoff/QuanX-Surge/master/Colorful/Caiyun.js, require-body=false
