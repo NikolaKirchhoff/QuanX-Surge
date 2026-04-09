@@ -38,15 +38,14 @@ if (typeof $request !== "undefined") {
   // get location from request url
   const url = $request.url;
   const res =
-    url.match(/latlon=([0-9.]*),([0-9.]*)/)||
-    url.match(/lng=([0-9.]*)&lat=([0-9.]*)/);
+    url.match(/\/([0-9.]+),([0-9.]+)\/weather/);
   if (res === null) {
     $.info(`❌ 正则表达式匹配错误，🥬 无法从URL: ${url} 获取位置。`);
     $.done({ body: $request.body });
   }
   const location = {
-    latitude: res[2],
-    longitude: res[1],
+    longitude: parseFloat(res[1]),  // 经度
+    latitude: parseFloat(res[2]),   // 纬度
   };
   if (!$.read("location")) {
     $.notify("[彩云天气]", "", "🎉🎉🎉 获取定位成功。");
