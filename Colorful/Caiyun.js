@@ -38,6 +38,7 @@ if (typeof $request !== "undefined") {
   // get location from request url
   const url = $request.url;
   const res =
+    url.match(/lon=([0-9.]*)&lat=([0-9.]*)/) ||
     url.match(/\/([0-9.]*),([0-9.]*)\/weather/);
   if (res === null) {
     $.info(`❌ 正则表达式匹配错误，🥬 无法从URL: ${url} 获取位置。`);
