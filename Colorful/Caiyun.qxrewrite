@@ -1,3 +1,3 @@
-^https?:\/\/(wrapper\.cyapi\.cn|api\.caiyunapp\.com)\/[^\/]+\/[^\/]+\/([0-9.]*),([0-9.]*)\/weather url script-request-header https://raw.githubusercontent.com/NikolaKirchhoff/QuanX-Surge/master/Colorful/Caiyun.js
+^https?:\/\/(?:wrapper\.cyapi\.cn|api\.caiyunapp\.com)(?:\/[^/]+)+\/([0-9.]+),([0-9.]+)\/weather url script-request-header https://raw.githubusercontent.com/NikolaKirchhoff/QuanX-Surge/master/Colorful/Caiyun.js
 
 hostname = *caiyunapp.com, wrapper.cyapi.cn
